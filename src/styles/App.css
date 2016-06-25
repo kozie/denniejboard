@@ -1,0 +1,13 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+.main {
+	width: 100%;
+}
+
+.sound {
+	background: red;
+}
