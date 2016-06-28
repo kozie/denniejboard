@@ -1,9 +1,7 @@
 /*esling no-console: "error"*/
 require('normalize.css/normalize.css');
-require('grd/dist/grd.css');
+require('materialize-css/sass/materialize.scss');
 require('styles/App.css');
-
-var derp = require;
 
 import React from 'react';
 import Sound from './Sound';
@@ -15,8 +13,8 @@ let sounds = config.default.sounds || {};
 class AppComponent extends React.Component {
   render() {
     return (
-      <div className="main Grid -center">
-				<div className="Cell -9of12">
+      <div className="container">
+				<div className="row">
 					{Object.keys(sounds).map(function(key) {
 						return (<Sound file={sounds[key]} />);
 					}, this)}

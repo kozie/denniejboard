@@ -4,8 +4,11 @@ body {
   background: #222;
 }
 
+#app {
+	width: 960px;
+}
+
 .main {
-	width: 100%;
 }
 
 .sound {

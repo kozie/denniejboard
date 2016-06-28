@@ -16,7 +16,7 @@ class SoundComponent extends React.Component {
 
 	render() {
 		return (
-			<div className="sound Cell -3of12" onClick={this.play.bind(this)}>Poes</div>
+			<div className="sound col s1" onClick={this.play.bind(this)}>Play</div>
 		);
 	}
 
