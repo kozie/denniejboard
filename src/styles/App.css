@@ -4,13 +4,11 @@ body {
   background: #222;
 }
 
-#app {
-	width: 960px;
+h1 {
+	text-align: center;
 }
 
-.main {
-}
-
-.sound {
-	background: red;
+.sound-container {
+	text-align: center;
+	margin-bottom: 4em;
 }
