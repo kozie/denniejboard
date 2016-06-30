@@ -9,6 +9,7 @@ export default {
 		'Denniej?': require('../sounds/denniej4.ogg'),
 		'Denniej! >:(': require('../sounds/denniej5.ogg'),
 		'Denniej!!': require('../sounds/denniej6.ogg'),
+		'Wejow Denniej': require('../sounds/wejow_denniej.ogg'),
 		'Just Denniej': require('../sounds/denniej7.ogg'),
 		'Mexican Denniej': require('../sounds/denniej_song.ogg')
 	}
