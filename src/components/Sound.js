@@ -39,10 +39,12 @@ class SoundComponent extends React.Component {
 		});
 
 		return (
-			<div className="sound-container col s12 m4">
+			<div className="sound-container col s6 m4">
 				<a className={classes} onClick={this.play.bind(this)}>
 					<i className="icon-play material-icons">{icon}</i>
 				</a>
+
+				<span className="sound-label">{this.props.label}</span>
 			</div>
 		);
 	}

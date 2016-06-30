@@ -18,7 +18,7 @@ class AppComponent extends React.Component {
       <div className="container">
 				<div className="row">
 					{Object.keys(sounds).map(function(key) {
-						return (<Sound no={no++} file={sounds[key]} />);
+						return (<Sound no={no++} label={key} file={sounds[key]} />);
 					}, this)}
 				</div>
       </div>
