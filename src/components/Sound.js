@@ -52,6 +52,7 @@ class SoundComponent extends React.Component {
 	play() {
 		if (this.state.isPlaying) {
 			this.state.sound.stop();
+			this.setState({isPlaying: false});
 		} else {
 			this.state.sound.play();
 			this.setState({isPlaying: true});
